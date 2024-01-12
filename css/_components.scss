@@ -1,0 +1,25 @@
+// button
+.myButton {
+  display: inline-block;
+  color: $text-color;
+  background-color: $primary-color;
+  padding: 10px 15px;
+  border-radius: 20px;
+
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $text-color;
+    color: $primary-color;
+    box-shadow: 0 0 12px rgb(216, 61, 117);
+  }
+}
+
+// line
+
+.line {
+  background-color: $primary-color;
+  width: 150px;
+  height: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}

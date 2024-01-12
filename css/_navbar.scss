@@ -1,0 +1,30 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: $text-color;
+  padding: 20px;
+  &-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    transition: all .3s;
+    a {
+      color: wheat;
+      text-shadow: 0 0 1px #000;
+      &:hover {
+        color: #000;
+        text-shadow: 0 0 3px wheat;
+        font-weight: bolder;
+      }
+    }
+    li{
+      cursor: pointer;
+    }
+  }
+}
